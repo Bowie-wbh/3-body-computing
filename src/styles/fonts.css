@@ -1,0 +1,23 @@
+/* System fonts for better performance and universal support */
+
+/* Font family definitions using system font stack */
+:root {
+  --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Apply fonts */
+body {
+  font-family: var(--font-primary);
+}
+
+/* Display font for headings and special elements */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+/* Button font styling */
+button {
+  font-family: var(--font-display);
+}

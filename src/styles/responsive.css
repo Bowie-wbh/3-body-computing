@@ -1,0 +1,416 @@
+/* Responsive container utilities for better large screen support */
+
+@layer utilities {
+  /* Container with better scaling for large screens */
+  .container-responsive {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  /* Standard max widths */
+  @media (min-width: 640px) {
+    .container-responsive {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container-responsive {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-responsive {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container-responsive {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .container-responsive {
+      max-width: 1400px;
+    }
+  }
+
+  /* 2K screens (1920px) */
+  @media (min-width: 1920px) {
+    .container-responsive {
+      max-width: 1700px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* 2.5K screens (2560px) */
+  @media (min-width: 2560px) {
+    .container-responsive {
+      max-width: 2200px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* 4K screens (3840px) - Maximum content width with minimal padding */
+  @media (min-width: 3840px) {
+    .container-responsive {
+      max-width: 3200px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  /* 5K screens (5120px) */
+  @media (min-width: 5120px) {
+    .container-responsive {
+      max-width: 3800px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  /* Wide container variant - for full-width sections */
+  .container-responsive-wide {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-responsive-wide {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container-responsive-wide {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-responsive-wide {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container-responsive-wide {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .container-responsive-wide {
+      max-width: 1536px;
+    }
+  }
+
+  /* 2K screens (1920px) */
+  @media (min-width: 1920px) {
+    .container-responsive-wide {
+      max-width: 1850px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* 2.5K screens (2560px) */
+  @media (min-width: 2560px) {
+    .container-responsive-wide {
+      max-width: 2400px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* 4K screens (3840px) - Maximum width for wide containers */
+  @media (min-width: 3840px) {
+    .container-responsive-wide {
+      max-width: 3400px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  /* 5K screens (5120px) */
+  @media (min-width: 5120px) {
+    .container-responsive-wide {
+      max-width: 4200px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  /* Spacing utilities for large screens - Reduced for better density */
+  @media (min-width: 3840px) {
+    .spacing-4k {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    .gap-4k {
+      gap: 1rem;
+    }
+
+    /* Global spacing reduction for all elements */
+    * {
+      letter-spacing: -0.01em;
+    }
+
+    /* Reduce default spacing in common layout elements */
+    div[class*="container"] {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+  }
+
+  /* Image and video optimization for high-resolution screens */
+  @media (min-width: 2560px) {
+    img, video {
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+    }
+  }
+
+  /* Enhanced image quality for 4K */
+  @media (min-width: 3840px) {
+    img {
+      image-rendering: high-quality;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    video {
+      object-fit: cover;
+    }
+
+    /* Reduce excessive margins and paddings globally for 4K */
+    section {
+      padding-top: clamp(2rem, 4vw, 4rem);
+      padding-bottom: clamp(2rem, 4vw, 4rem);
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .mb-16 {
+      margin-bottom: 3rem !important;
+    }
+
+    .mb-20 {
+      margin-bottom: 3rem !important;
+    }
+
+    .mt-20 {
+      margin-top: 3rem !important;
+    }
+
+    .mb-12 {
+      margin-bottom: 2rem !important;
+    }
+
+    .mt-12 {
+      margin-top: 2rem !important;
+    }
+
+    .mb-14 {
+      margin-bottom: 2.5rem !important;
+    }
+
+    .py-20 {
+      padding-top: 4rem !important;
+      padding-bottom: 4rem !important;
+    }
+
+    .py-16 {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+
+    .py-12 {
+      padding-top: 2.5rem !important;
+      padding-bottom: 2.5rem !important;
+    }
+
+    .py-8 {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+    }
+
+    /* Space between utilities */
+    .space-y-8 > * + * {
+      margin-top: 1.5rem !important;
+    }
+
+    .space-y-12 > * + * {
+      margin-top: 2rem !important;
+    }
+
+    .space-y-16 > * + * {
+      margin-top: 2.5rem !important;
+    }
+  }
+
+  /* Grid layouts for 4K - Keep reasonable column counts */
+  @media (min-width: 3840px) {
+    .grid-4k-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid-4k-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .grid-4k-5 {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    /* Icon and element scaling for 4K */
+    svg, .icon {
+      width: 1.25em;
+      height: 1.25em;
+    }
+
+    /* Card and component scaling */
+    .card, .component {
+      min-height: auto;
+    }
+
+    /* Tighter text spacing for 4K */
+    .text-xl {
+      font-size: 1rem !important;
+    }
+
+    .text-2xl {
+      font-size: 1.25rem !important;
+    }
+
+    .text-3xl {
+      font-size: 1.5rem !important;
+    }
+
+    .text-4xl {
+      font-size: 1.75rem !important;
+    }
+
+    .text-5xl {
+      font-size: 2rem !important;
+    }
+  }
+
+  /* Navbar and footer scaling for 4K - Minimal side padding */
+  @media (min-width: 3840px) {
+    .navbar-4k {
+      padding: 1rem 0.5rem;
+    }
+
+    .footer-4k {
+      padding: 2.5rem 0.5rem;
+    }
+
+    /* Additional utility classes for better 4K layout control */
+    .max-w-4k {
+      max-width: 3200px;
+    }
+
+    .max-w-4k-wide {
+      max-width: 3400px;
+    }
+
+    .px-4k {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .py-4k {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    /* Tighter gaps for grid and flex layouts */
+    .gap-4 {
+      gap: 0.75rem !important;
+    }
+
+    .gap-6 {
+      gap: 1rem !important;
+    }
+
+    .gap-8 {
+      gap: 1.25rem !important;
+    }
+
+    .gap-12 {
+      gap: 1.5rem !important;
+    }
+
+    .gap-16 {
+      gap: 2rem !important;
+    }
+
+    /* Override common padding classes for minimal side spacing */
+    .px-6 {
+      padding-left: 0.75rem !important;
+      padding-right: 0.75rem !important;
+    }
+
+    .px-8 {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+
+    .px-12 {
+      padding-left: 1.25rem !important;
+      padding-right: 1.25rem !important;
+    }
+
+    .px-16 {
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
+    }
+
+    .px-24 {
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+    }
+
+    /* Margin overrides for tighter spacing */
+    .mx-auto {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* Override max-width constraints for wider content */
+    .max-w-7xl {
+      max-width: 90rem !important;
+    }
+
+    .max-w-6xl {
+      max-width: 80rem !important;
+    }
+
+    .max-w-5xl {
+      max-width: 70rem !important;
+    }
+
+    .max-w-4xl {
+      max-width: 60rem !important;
+    }
+
+    /* Container classes should take more width */
+    .container {
+      max-width: 3200px !important;
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+  }
+}

@@ -1,0 +1,736 @@
+/* Frame 1 */
+
+position: relative;
+width: 1541.33px;
+height: 332px;
+
+
+
+/* Logos */
+
+position: absolute;
+width: 1541.33px;
+height: 332px;
+left: 0px;
+top: 0px;
+
+
+
+/* Logo 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 0px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(国星宇航logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 194.67px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(地卫二logo.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 389.33px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(氦星光联logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 584px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(广西大学logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 778.67px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(中国科学院国家天文台logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 23 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 973.33px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(航天驭星logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 30 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 0px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(复旦大学logo.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 31 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 194.67px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(鸿擎科技logo黑色.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 32 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 389.33px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(资源 2@3x.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 33 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 584px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(资源 1@3x.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 34 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 778.67px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(资源 2@3x.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 1168px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(蓝箭航天logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 0px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(吉天星舟logo1.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 194.67px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(标志与校名中英文（横版）-蓝.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 389.33px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(北京师范大学logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 584px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(天链测控logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 778.67px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(十方星链logo.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 35 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 973.33px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(2460514.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 1168px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(斯北图logo.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 40 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 973.33px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(京济通信.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 39 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 1168px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(中科睿格logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 38 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 1362.67px;
+top: 24px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(中国雄安.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 37 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 1362.67px;
+top: 124px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(开运联合 (2).png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo 36 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 155px;
+height: 84px;
+left: 1362.67px;
+top: 224px;
+
+
+
+/* Image */
+
+width: 124px;
+height: 60px;
+
+background: url(资源 1.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
