@@ -131,7 +131,7 @@ export default function OliveLeafPlanPage() {
       linksTitle: '友情链接',
       linkItem: {
         title: '橄榄叶计划官网',
-        url: 'https://www.oliveleaf.org.cn/'
+        url: 'https://oliveleaf.zero2x.org/'
       }
     },
     en: {
@@ -196,7 +196,7 @@ export default function OliveLeafPlanPage() {
       linksTitle: 'Links',
       linkItem: {
         title: 'Olive Leaf Plan Official Website',
-        url: 'https://www.oliveleaf.org.cn/'
+        url: 'https://oliveleaf.zero2x.org/'
       }
     },
   };
