@@ -32,6 +32,9 @@ import imgCarousel4 from "figma:asset/2626c982276bf0931950df8a6bedf36ec6978df7.p
 // Import design full image (仿真画面)
 import imgDesignFull from "figma:asset/1c34a9b8cfafd74e72123efc64dafe34f98356b1.png";
 
+// Import hero image for Screen1
+import imgShoufa12 from "../../assets/shoufa12.jpg";
+
 export default function ServicesPage() {
   const navigate = useNavigate();
   const { language, theme } = useApp();
@@ -149,29 +152,11 @@ function Screen1({ t, navigate }: any) {
           >
             {/* Image content area - 1:1 aspect ratio */}
             <div className="relative aspect-square overflow-hidden">
-              <ImageWithFallback 
-                src={imgDesignFull}
+              <img
+                src={imgShoufa12}
                 alt={t.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              
-              {/* Play Button Overlay */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  onClick={() => window.open('https://os-paint-28010428.figma.site', '_blank')}
-                  className={`w-20 h-20 rounded-full flex items-center justify-center transition-all ${
-                    theme === 'dark'
-                      ? 'bg-white/20 hover:bg-white/30 backdrop-blur-md border-2 border-white/40'
-                      : 'bg-white/70 hover:bg-white/90 backdrop-blur-md border-2 border-white shadow-xl'
-                  }`}
-                >
-                  <div className={`w-0 h-0 border-l-[20px] border-t-[12px] border-b-[12px] border-t-transparent border-b-transparent ml-1 ${
-                    theme === 'dark' ? 'border-l-white' : 'border-l-blue-600'
-                  }`} />
-                </motion.button>
-              </div>
             </div>
           </motion.div>
         </div>
