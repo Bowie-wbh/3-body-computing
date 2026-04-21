@@ -1,4 +1,4 @@
-/**
+ /**
  * 星座简介页面图片资源配置
  * Constellation Page Image Assets Configuration
  * 
@@ -35,32 +35,56 @@ import imgDistributed from "figma:asset/24006ac554fcbc60285022ae3a46441a9b1e0fe0
 import imgModel from "figma:asset/ea8e5b8358a7b0a42e463ca3875b86619a0c3aac.png";         // 具身智能卫星模型
 
 // ========================================
-// Screen8 - 合作伙伴Logo (24张)
+// Screen8 - 合作伙伴Logo (48张) - 新版本来自 Figma node 75-1589
 // ========================================
-import logoPartner1 from "figma:asset/18e7fed704277ab1a850a7563185ecdb5c8b3ade.png";
-import logoPartner2 from "figma:asset/b3528bc3db41d97230a29de2297040d6208c0062.png";
-import logoPartner3 from "figma:asset/aa996aea97ca6025aa8660571f957eb9007dd5fc.png";
-import logoPartner4 from "figma:asset/cb2ec7341f283500b501aede3268b4fb2e0b4d77.png";
-import logoPartner5 from "figma:asset/67dd62489e793eae3b40635b7bcb6283193fc624.png";
-import logoPartner6 from "figma:asset/466e227311cbe5056b8cd795b99bd0c628db2dc6.png";
-import logoPartner7 from "figma:asset/323f6b158b34dd5fb7ab64e6f294b96ac373de22.png";
-import logoPartner8 from "figma:asset/3794bf6e210bb42037473fe0337bb0a9c9e8e196.png";
-import logoPartner9 from "figma:asset/c7f12040b523d43e169d7de3dc22aa362e03e86d.png";
-import logoPartner10 from "figma:asset/5bab8448671a25a8475e88dac72acc5052dac6b2.png";
-import logoPartner11 from "figma:asset/b4d73d591ce69fa55deee9f61504b4e96e59e337.png";
-import logoPartner12 from "figma:asset/b24527a6cd46eb333f78dbcddd401377cbd07048.png";
-import logoPartner13 from "figma:asset/055346fc5977b98d5f76fe418788fda201d55ebd.png";
-import logoPartner14 from "figma:asset/dc00dbf1905eec742969359cf2d11f35bf59d2cf.png";
-import logoPartner15 from "figma:asset/ed1ce26b72141de3ab291091adffb5d54eee8b83.png";
-import logoPartner16 from "figma:asset/cec748dcb997ee0c127c2f520faa8b2c75021692.png";
-import logoPartner17 from "figma:asset/9f4b33873ba6452f1ff478667328355fc5d864b4.png";
-import logoPartner18 from "figma:asset/0184e0d3bd18567b5b76667c7c23f51fc716bb4c.png";
-import logoPartner19 from "figma:asset/d345039eea44f33a43e039be3e4b75d8cc7737d5.png";
-import logoPartner20 from "figma:asset/878d614ec18216314f5a8bb019b80eb4b49c7eac.png";
-import logoPartner21 from "figma:asset/6b56c0a34c68220be6bd08a5475e8cc469aae871.png";
-import logoPartner22 from "figma:asset/ad80b97aac24962c4ed8214ad6ad03dbdf11355d.png";
-import logoPartner23 from "figma:asset/395da47932d1fa4ccc8a985a8ba8896f4a1f9d34.png";
-import logoPartner24 from "figma:asset/79e711dd4ece1e5308937dd2146037527c9afa76.png";
+import logoPartner1 from "figma:asset/logo-1.png";
+import logoPartner2 from "figma:asset/logo-2.png";
+import logoPartner3 from "figma:asset/logo-3.png";
+import logoPartner4 from "figma:asset/logo-4.png";
+import logoPartner5 from "figma:asset/logo-5.png";
+import logoPartner6 from "figma:asset/logo-6.png";
+import logoPartner7 from "figma:asset/logo-7.png";
+import logoPartner8 from "figma:asset/logo-8.png";
+import logoPartner9 from "figma:asset/logo-9.png";
+import logoPartner10 from "figma:asset/logo-10.png";
+import logoPartner11 from "figma:asset/logo-11.png";
+import logoPartner12 from "figma:asset/logo-12.png";
+import logoPartner13 from "figma:asset/logo-13.png";
+import logoPartner14 from "figma:asset/logo-14.png";
+import logoPartner15 from "figma:asset/logo-15.png";
+import logoPartner16 from "figma:asset/logo-16.png";
+import logoPartner17 from "figma:asset/logo-17.png";
+import logoPartner18 from "figma:asset/logo-18.png";
+import logoPartner19 from "figma:asset/logo-19.png";
+import logoPartner20 from "figma:asset/logo-20.png";
+import logoPartner21 from "figma:asset/logo-21.png";
+import logoPartner22 from "figma:asset/logo-22.png";
+import logoPartner23 from "figma:asset/logo-23.png";
+import logoPartner24 from "figma:asset/logo-24.png";
+import logoPartner25 from "figma:asset/logo-25.png";
+import logoPartner26 from "figma:asset/logo-26.png";
+import logoPartner27 from "figma:asset/logo-27.png";
+import logoPartner28 from "figma:asset/logo-28.png";
+import logoPartner29 from "figma:asset/logo-29.png";
+import logoPartner30 from "figma:asset/logo-30.png";
+import logoPartner31 from "figma:asset/logo-31.png";
+import logoPartner32 from "figma:asset/logo-32.png";
+import logoPartner33 from "figma:asset/logo-33.png";
+import logoPartner34 from "figma:asset/logo-34.png";
+import logoPartner35 from "figma:asset/logo-35.png";
+import logoPartner36 from "figma:asset/logo-36.png";
+import logoPartner37 from "figma:asset/logo-37.png";
+import logoPartner38 from "figma:asset/logo-38.png";
+import logoPartner39 from "figma:asset/logo-39.png";
+import logoPartner40 from "figma:asset/logo-40.png";
+import logoPartner41 from "figma:asset/logo-41.png";
+import logoPartner42 from "figma:asset/logo-42.png";
+import logoPartner43 from "figma:asset/logo-43.png";
+import logoPartner44 from "figma:asset/logo-44.png";
+import logoPartner45 from "figma:asset/logo-45.png";
+import logoPartner46 from "figma:asset/logo-46.png";
+import logoPartner47 from "figma:asset/logo-47.png";
+import logoPartner48 from "figma:asset/logo-48.png";
 
 // ========================================
 // 导出配置对象
@@ -103,7 +127,8 @@ export const achievementImages = {
 };
 
 /**
- * Screen8 合作伙伴Logo数组 (24个)
+ * Screen8 合作伙伴Logo数组 (48个) - 新版本来自 Figma node 75-1589
+ * 分为3行，每行16个
  */
 export const partnerLogos = [
   logoPartner1, logoPartner2, logoPartner3, logoPartner4,
@@ -112,6 +137,39 @@ export const partnerLogos = [
   logoPartner13, logoPartner14, logoPartner15, logoPartner16,
   logoPartner17, logoPartner18, logoPartner19, logoPartner20,
   logoPartner21, logoPartner22, logoPartner23, logoPartner24,
+  logoPartner25, logoPartner26, logoPartner27, logoPartner28,
+  logoPartner29, logoPartner30, logoPartner31, logoPartner32,
+  logoPartner33, logoPartner34, logoPartner35, logoPartner36,
+  logoPartner37, logoPartner38, logoPartner39, logoPartner40,
+  logoPartner41, logoPartner42, logoPartner43, logoPartner44,
+  logoPartner45, logoPartner46, logoPartner47, logoPartner48,
+];
+
+/**
+ * Screen8 合作伙伴Logo - 按行分组
+ * 行1: 左→右滚动 (logo 1-16)
+ * 行2: 右→左滚动 (logo 17-32)
+ * 行3: 左→右滚动 (logo 33-48)
+ */
+export const partnerLogosRow1 = [
+  logoPartner1, logoPartner2, logoPartner3, logoPartner4,
+  logoPartner5, logoPartner6, logoPartner7, logoPartner8,
+  logoPartner9, logoPartner10, logoPartner11, logoPartner12,
+  logoPartner13, logoPartner14, logoPartner15, logoPartner16,
+];
+
+export const partnerLogosRow2 = [
+  logoPartner17, logoPartner18, logoPartner19, logoPartner20,
+  logoPartner21, logoPartner22, logoPartner23, logoPartner24,
+  logoPartner25, logoPartner26, logoPartner27, logoPartner28,
+  logoPartner29, logoPartner30, logoPartner31, logoPartner32,
+];
+
+export const partnerLogosRow3 = [
+  logoPartner33, logoPartner34, logoPartner35, logoPartner36,
+  logoPartner37, logoPartner38, logoPartner39, logoPartner40,
+  logoPartner41, logoPartner42, logoPartner43, logoPartner44,
+  logoPartner45, logoPartner46, logoPartner47, logoPartner48,
 ];
 
 /**

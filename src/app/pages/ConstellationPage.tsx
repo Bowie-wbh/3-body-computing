@@ -52,6 +52,9 @@ import {
   globalCooperationImages, 
   achievementImages as achievementImagesConfig,
   partnerLogos,
+  partnerLogosRow1,
+  partnerLogosRow2,
+  partnerLogosRow3,
   modalContentImages,
   constellationPageImages
 } from '../data/constellationImages';
@@ -120,7 +123,7 @@ export default function ConstellationPage() {
 
       {/* Screen 8 - Partners */}
       <div data-screen="6">
-        <Screen8 t={t.screen8} partners={partnerLogos} />
+        <Screen8 t={t.screen8} />
       </div>
 
       <Footer />
@@ -1015,60 +1018,90 @@ function Screen8({ t }: { t: any }) {
               }`}
             />
             
-            {/* 第一行滚动动画 - 从左向右 */}
+            {/* 第一行滚动动画 - 从左向右 (logo 1-16) */}
             <motion.div
               animate={{
-                x: [0, -1920],
+                x: [0, -3840],
               }}
               transition={{
                 x: {
                   repeat: Infinity,
                   repeatType: "loop",
-                  duration: 35,
+                  duration: 50,
                   ease: "linear",
                 },
               }}
-              className="flex gap-12 items-center py-4"
+              className="flex gap-6 items-center py-4"
             >
-              {/* 前12个logo，复制两遍实现无缝循环 */}
-              {[...partnerLogos.slice(0, 12), ...partnerLogos.slice(0, 12)].map((logo: string, index: number) => (
+              {/* 16个logo，复制两遍实现无缝循环 */}
+              {[...partnerLogosRow1, ...partnerLogosRow1].map((logo: string, index: number) => (
                 <div
                   key={`row1-${index}`}
-                  className="flex-shrink-0 w-32 h-20 rounded-lg flex items-center justify-center p-4 transition-all bg-white hover:shadow-xl shadow-md border border-gray-200"
+                  className="flex-shrink-0 w-32 h-20 rounded-lg flex items-center justify-center p-3 transition-all bg-white hover:shadow-xl shadow-md border border-gray-200"
                 >
                   <ImageWithFallback
                     src={logo}
-                    alt={`Partner ${index + 1}`}
+                    alt={`Partner ${(index % 16) + 1}`}
                     className="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </div>
               ))}
             </motion.div>
 
-            {/* 第二行滚动动画 - 从右向左（反向） */}
+            {/* 第二行滚动动画 - 从右向左（反向，logo 17-32） */}
             <motion.div
               animate={{
-                x: [-1920, 0],
+                x: [-3840, 0],
               }}
               transition={{
                 x: {
                   repeat: Infinity,
                   repeatType: "loop",
-                  duration: 35,
+                  duration: 50,
                   ease: "linear",
                 },
               }}
-              className="flex gap-12 items-center py-4"
+              className="flex gap-6 items-center py-4"
             >
-              {/* 后12个logo，复制两遍实现无缝循环 */}
-              {[...partnerLogos.slice(12, 24), ...partnerLogos.slice(12, 24)].map((logo: string, index: number) => (
+              {/* 16个logo，复制两遍实现无缝循环 */}
+              {[...partnerLogosRow2, ...partnerLogosRow2].map((logo: string, index: number) => (
                 <div
                   key={`row2-${index}`}
-                  className="flex-shrink-0 w-32 h-20 rounded-lg flex items-center justify-center p-4 transition-all bg-white hover:shadow-xl shadow-md border border-gray-200"
+                  className="flex-shrink-0 w-32 h-20 rounded-lg flex items-center justify-center p-3 transition-all bg-white hover:shadow-xl shadow-md border border-gray-200"
                 >
                   <ImageWithFallback
                     src={logo}
-                    alt={`Partner ${index + 13}`}
+                    alt={`Partner ${(index % 16) + 17}`}
+                    className="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  />
+                </div>
+              ))}
+            </motion.div>
+
+            {/* 第三行滚动动画 - 从左向右 (logo 33-48) */}
+            <motion.div
+              animate={{
+                x: [0, -3840],
+              }}
+              transition={{
+                x: {
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  duration: 55,
+                  ease: "linear",
+                },
+              }}
+              className="flex gap-6 items-center py-4"
+            >
+              {/* 16个logo，复制两遍实现无缝循环 */}
+              {[...partnerLogosRow3, ...partnerLogosRow3].map((logo: string, index: number) => (
+                <div
+                  key={`row3-${index}`}
+                  className="flex-shrink-0 w-32 h-20 rounded-lg flex items-center justify-center p-3 transition-all bg-white hover:shadow-xl shadow-md border border-gray-200"
+                >
+                  <ImageWithFallback
+                    src={logo}
+                    alt={`Partner ${(index % 16) + 33}`}
                     className="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </div>
