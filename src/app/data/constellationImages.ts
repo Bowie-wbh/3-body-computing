@@ -9,7 +9,7 @@
 // ========================================
 // Screen6 - AI模型卡片图片 (4张)
 // ========================================
-import imgTianwen from "figma:asset/ea035d335997adce2e5f882a778a0e9ab74e1c00.png";  // 天文模型
+import imgTianwen from "../../assets/tianwen.png";  // 天文模型 - 天基天文时域模型卡片配图
 import imgQixiang from "figma:asset/5a4ea9270b6d4451eab74eeadec144ed64b11714.png";  // 气象模型
 import imgYaogan from "figma:asset/248fba50dd4f1d6d08f46634ef512f3dfa222737.png";   // 遥感模型
 import imgXihe from "figma:asset/1010c352d32f7ea43ef54d8098e35d0a17b67e51.png";     // 羲和模型
