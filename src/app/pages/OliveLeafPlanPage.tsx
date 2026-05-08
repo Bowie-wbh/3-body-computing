@@ -135,46 +135,46 @@ export default function OliveLeafPlanPage() {
       }
     },
     en: {
-      breadcrumb: ['Constellation', 'Global Cooperation', 'Olive Leaf Plan'],
+      breadcrumb: ['Constellation Introduction', 'Global Cooperation', 'Olive Leaf Initiative'],
       backButton: 'Back to Global Cooperation',
-      title: 'UNESCO Olive Leaf Plan',
-      subtitle: 'We plan to launch 1-2 public science experimental satellites annually, openly soliciting space science payloads and space intelligence applications worldwide, providing open ride-sharing and verification services.',
-      organizer: 'Organizers: Zhejiang Lab, Xiong\'an Science Park, HongQing Technology',
-      recruitmentTitle: 'Recruitment Content',
+      title: 'UNESCO · Olive Leaf Initiative',
+      subtitle: 'Plans to launch 1-2 public-benefit scientific experiment satellites annually, openly soliciting space science payloads and space intelligent applications globally, providing open satellite-integration and verification services.',
+      organizer: 'Organizers: Zhejiang Lab, Xiong\'an Science Park, Hongqing Technology',
+      recruitmentTitle: 'Solicitation Content',
       recruitmentItems: [
         {
-          title: 'Science Payload Testing',
+          title: 'Scientific Payload On-orbit Experiments',
           icon: Globe2,
           items: [
             {
               label: 'Service Content',
-              desc: 'Provide free and open science payload ride-sharing and in-orbit verification services'
+              desc: 'Provides free and open scientific payload carrying and in-orbit verification services.'
             },
             {
-              label: 'Support Provided',
-              desc: 'Provide satellite platform, platform interface design services, in-orbit computing support, and collaborative completion of payload in-orbit experiments.'
+              label: 'Provided Support',
+              desc: 'Provides satellite platform, platform access design services, on-orbit computing power support, and collaborates to complete payload in-orbit experiments.'
             },
             {
               label: 'Data Rights',
-              desc: 'In-orbit experimental data is openly shared globally to support open science development.'
+              desc: 'In-orbit experimental data is openly shared globally, supporting the development of open science.'
             }
           ]
         },
         {
-          title: 'Space Intelligence Application Verification',
+          title: 'Space-based AI Application Validation',
           icon: Globe2,
           items: [
             {
               label: 'Service Content',
-              desc: 'Provide free and open in-orbit verification services for models and applications'
+              desc: 'Provides free and open model and application in-orbit verification services.'
             },
             {
-              label: 'Support Provided',
-              desc: 'Provide open sample data, application development environment, interface information and other resources, and provide one-stop services such as algorithm optimization, simulation testing, and in-orbit verification of models and applications.'
+              label: 'Provided Support',
+              desc: 'Provides open sample data, application development environment, interface information and other resources, offering one-stop services such as algorithm optimization, simulation testing, and model and application in-orbit verification.'
             },
             {
               label: 'Data Rights',
-              desc: 'Technologies such as models and applications, as well as their verification data, will be openly shared globally to support open science development.'
+              desc: 'Technologies such as models and applications and their in-orbit verification data will be openly shared globally, supporting the development of open science.'
             }
           ]
         }
@@ -193,9 +193,9 @@ export default function OliveLeafPlanPage() {
       submitting: 'Submitting...',
       successMessage: 'Application submitted successfully!',
       errorMessage: 'Submission failed, please try again',
-      linksTitle: 'Links',
+      linksTitle: 'Friendly Links',
       linkItem: {
-        title: 'Olive Leaf Plan Official Website',
+        title: 'Olive Leaf Initiative Official Website',
         url: 'https://oliveleaf.zero2x.org/'
       }
     },

@@ -493,9 +493,47 @@ export default function ITUChallengeDetailPage() {
       ],
     },
     en: {
-      breadcrumb: ['Constellation', 'Global Cooperation', 'ITUSpace.Ai Challenge'],
+      breadcrumb: ['Constellation Introduction', 'Global Cooperation', 'ITU·Space AI Competition'],
       backButton: 'Back to Global Cooperation',
-      title: 'ITU AI & Space Computing Challenge',
+      title: 'ITU · AI and Space Computing Challenge',
+      subtitle: 'The world\'s first international competition focusing on "on-orbit intelligent computing". Winning teams will have the opportunity to receive full-process support from Zhejiang Lab for algorithm uploading to satellites and solution implementation.',
+      organizer: 'Organizers: International Telecommunication Union (ITU), China Academy of Information and Communications Technology (CAICT), Zhejiang Lab',
+      coOrganizer: 'Co-organizers: International Research Center of Big Data for Sustainable Development Goals, Zhejiang Development Foundation',
+      statsTitle: 'Registration Status',
+      tracksTitle: 'Three Major Tracks',
+      tracks: [
+        {
+          title: 'Space Intelligence Empowers Food Production',
+          desc: 'Utilizes satellite remote sensing and AI technology to achieve intelligent monitoring and precise management of agricultural production, aiding global food security.',
+          icon: Wheat,
+          image: 'https://images.unsplash.com/photo-1745733444573-98a313c79022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYXRlbGxpdGUlMjBhZ3JpY3VsdHVyZSUyMG1vbml0b3JpbmclMjBwcmVjaXNpb24lMjBmYXJtaW5nJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI1MTk3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        },
+        {
+          title: 'Space Intelligence Promotes Clean Drinking Water',
+          desc: 'Through satellite data analysis and on-orbit computing, monitors water resource distribution and quality, providing technological support for clean drinking water.',
+          icon: Droplet,
+          image: 'https://images.unsplash.com/photo-1633676843008-78bdc2d7616e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YXRlciUyMHF1YWxpdHklMjBtb25pdG9yaW5nJTIwc2F0ZWxsaXRlJTIwcmVzb3VyY2VzfGVufDF8fHx8MTc3MjUxOTcyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        },
+        {
+          title: 'Space Intelligence Empowers Resilient Cities and Communities',
+          desc: 'Applies space intelligence technology to build smart city systems, enhancing cities\' resilience in facing disasters and challenges.',
+          icon: Building2,
+          image: 'https://images.unsplash.com/photo-1769298084996-8ed5d3a72870?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjaXR5JTIwc2t5bGluZSUyMHVyYmFuJTIwYWVyaWFsfGVufDF8fHx8MTc3MjUxOTgxM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        },
+      ],
+      linksTitle: 'Friendly Links',
+      links: [
+        {
+          title: 'AI for Good',
+          desc: 'ITU official competition platform. Learn more about the AI and Space Computing Challenge.',
+          url: 'https://aiforgood.itu.int/ai-and-space-computing-challenge/',
+        },
+        {
+          title: 'Xingzhibei AI Competition Platform',
+          desc: 'China official competition platform. View detailed track information and registration.',
+          url: 'http://www.aiinnovation.com.cn/#/ctrackList?ckey=4',
+        },
+      ],
     },
   };
 
